@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: orange;
+    padding: 5px;
+}
+
+.topnav a {
+    display: block;
+    float: right;
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+span {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+#top-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+#me-image {
+    display: flex;
+    margin-top: 100px;
+}
+
+#refactor {
+    display: block;
+
+}
+
+#refactor img {
+    height: 250px;
+    width :250px;
+}
+
+#refactor1 img, #refactor2 img, #refactor3 img {
+    height: 250px;
+    width :250px;
+
+}
+
+#inner-grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+   
+  }
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+.gridContainer > h2{
+    margin-top: 3em;
+    margin-left: 10em;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.gridContainer > p{
+    margin-top: 3em;
+    margin-right: 1em;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
