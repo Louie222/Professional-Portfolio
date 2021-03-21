@@ -44,25 +44,40 @@ span {
     margin-top: 100px;
 }
 
-#refactor {
-    display: block;
+#refactor, #refactor1, #refactor2, #refactor3 {
+    display: inline-block;
 
 }
 
 #refactor img {
-    height: 250px;
-    width :250px;
+    height: 500px;
+    width :800px;
 }
 
-#refactor1 img, #refactor2 img, #refactor3 img {
+#refactor1 img {
     height: 250px;
     width :250px;
+    margin-left: 15.25cm;
 
+}
+
+#refactor2 img {
+    height: 250px;
+    width: 250px;
+    margin-left: 22cm;
+    margin-bottom: 7cm;
+}
+
+#refactor3 img {
+    height: 250px;
+    width: 250px;
+    margin-left: 29cm;
+    margin-bottom: 50px;
 }
 
 #inner-grid {
     display: grid;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 1fr 1fr;
    
   }
 
