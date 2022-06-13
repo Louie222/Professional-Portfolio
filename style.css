@@ -27,15 +27,41 @@ nav {
     cursor: crosshair;
 }
 
-nav ul li {
+ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
-}
+    font-size: 25px;
+} 
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } 
 
 .content {
     position: absolute;
     top: 50%;
     left: 8%;
     
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    letter-spacing: 2px;
+    font-size: 20px;
 }
