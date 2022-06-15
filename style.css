@@ -85,6 +85,20 @@ h1 {
     font-size: 75px;
 }
 
+.missionStatement {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 100px;
+    width: 50%; 
+   
+}
+
+.missionStatement-info {
+    font-size: 50px;
+    color: white;
+}
+
+
 h3 {
     color: white;
     font-size: 25px;
@@ -100,3 +114,4 @@ h4 {
 span {
     color: yellow;
 }
+
