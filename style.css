@@ -73,6 +73,29 @@ li a {
     border: 3px solid #d74400;
   }
 
+  .dropbtn {
+    position: relative;
+  width: 200px;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block; 
+  border-radius: 10px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: white;
+  }
+
+  .dropbtn:hover {
+    box-shadow: 0 0 10px 0 #d70027 inset, 0 0 20px 2px #ffd501f5;
+    border: 3px solid #d74400;
+  }
+
 .content {
     position: absolute;
     top: 50%;
