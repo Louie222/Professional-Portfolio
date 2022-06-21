@@ -87,9 +87,6 @@ li a {
     border: 3px solid #d74400;
   }
 
-
-
-
 .content {
     position: absolute;
     top: 50%;
@@ -98,6 +95,7 @@ li a {
 }
 
 h1 {
+    
     color: black;
     margin: 20px 0px 20px;
     font-size: 75px;
@@ -132,4 +130,6 @@ h4 {
 span {
     color: yellow;
 }
+
+
 
