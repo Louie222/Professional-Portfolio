@@ -136,6 +136,13 @@ span {
     color: yellow;
 }
 
+.fa-solid {
+    position: absolute;
+    color: black;
+    margin-left: 25px;
+    margin-top: -250px;
+}
+
 
 
 
