@@ -150,6 +150,14 @@ span {
     
 }
 
+.forwardIcon {
+    position: absolute;
+    color: black;
+    margin-left: 95%;
+    margin-top: auto;
+     
+}
+
 .fa-solid:hover {
     color: blue;
 }
