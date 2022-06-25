@@ -33,6 +33,7 @@ nav {
     display: inline-block;
     padding: 10px 25px;
     font-size: 25px;
+    font-family: cursive;
 }
 
 nav ul ul {
@@ -159,7 +160,7 @@ span {
 }
 
 .fa-solid:hover {
-    color: blue;
+    color: rgb(89, 255, 0);
 }
 
 
